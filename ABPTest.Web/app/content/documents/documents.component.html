@@ -1,0 +1,80 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="accordion" id="accordion1">
+            <div class="accordion-group">
+                <div class="accordion-heading"><div class="text-info"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne"><span class="caret"></span> Персональные документы</a> </div></div>
+                <div id="collapseOne" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"><div class="doc"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"><span class="caret"></span> Паспорт 1</a> </div></div>
+                                <div id="collapseFive" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>Данные</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <div class="doc"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree"><span class="caret"></span> Паспорт 2</a> </div></div>
+                                <div id="collapseThree" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>Данные</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-group">
+                <div class="accordion-heading"><div class="text-info"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo"><span class="caret"></span> Документы студента </a> </div></div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <div class="doc"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix"><span class="caret"></span> Справка 1</a> </div></div>
+                                <div id="collapseSix" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>Данные</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <div class="doc"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven"><span class="caret"></span> Справка 2</a> </div></div>
+                                <div id="collapseSeven" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>Данные</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="long-title">
+        <h3>Мой документ</h3>
+    </div>
+    <dx-form id="outputForm"
+                [(formData)]="studentDocumentOutput"
+                [readOnly]="readOnly"
+                [showColonAfterLabel]="showColon"
+                [labelLocation]="labelLocation"
+                [minColWidth]="minColWidth"
+                [colCount]="colCount"
+                [width]="width">
+    </dx-form>
+    
+    <dx-form id="inputForm"
+             [(formData)]="studentDocumentInput"
+             [showColonAfterLabel]="showColon"
+             [labelLocation]="labelLocation"
+             [minColWidth]="minColWidth"
+             [colCount]="colCount"
+             [width]="width">
+    </dx-form>
+    <dx-button text="Отправить" (onClick)="postStudentDocument(studentDocumentInput)"></dx-button>
+
+</div>

@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFA48E27-7D53-4955-A722-3D91A7119BE7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.Core", "ABPTest.Core\ABPTest.Core.csproj", "{17298EA0-AF73-4F30-B6F1-2066100D7D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.Application", "ABPTest.Application\ABPTest.Application.csproj", "{EDF5D964-4C0F-4F19-B674-58A38A5E5401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.EntityFramework", "ABPTest.EntityFramework\ABPTest.EntityFramework.csproj", "{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.Web", "ABPTest.Web\ABPTest.Web.csproj", "{897F6FD8-6F90-48E4-95A5-B4429B896205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.WebApi", "ABPTest.WebApi\ABPTest.WebApi.csproj", "{5EB52D3D-09FD-463A-B02A-8D9856BD3724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.Test", "ABPTest.Test\ABPTest.Test.csproj", "{DD455064-F526-431B-B726-33AAA218BD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPTest.FakeDataLayer", "ABPTest.FakeDataLayer\ABPTest.FakeDataLayer.csproj", "{60343F62-1324-4E5E-9A27-58F2A129528E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17298EA0-AF73-4F30-B6F1-2066100D7D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF5D964-4C0F-4F19-B674-58A38A5E5401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897F6FD8-6F90-48E4-95A5-B4429B896205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB52D3D-09FD-463A-B02A-8D9856BD3724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD455064-F526-431B-B726-33AAA218BD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD455064-F526-431B-B726-33AAA218BD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD455064-F526-431B-B726-33AAA218BD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD455064-F526-431B-B726-33AAA218BD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60343F62-1324-4E5E-9A27-58F2A129528E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60343F62-1324-4E5E-9A27-58F2A129528E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60343F62-1324-4E5E-9A27-58F2A129528E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60343F62-1324-4E5E-9A27-58F2A129528E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://spbgu.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ABPTest.Core\\ABPTest.Core.csproj
+		SccProjectName1 = ABPTest.Core
+		SccLocalPath1 = ABPTest.Core
+		SccProjectUniqueName2 = ABPTest.Application\\ABPTest.Application.csproj
+		SccProjectName2 = ABPTest.Application
+		SccLocalPath2 = ABPTest.Application
+		SccProjectUniqueName3 = ABPTest.EntityFramework\\ABPTest.EntityFramework.csproj
+		SccProjectName3 = ABPTest.EntityFramework
+		SccLocalPath3 = ABPTest.EntityFramework
+		SccProjectUniqueName4 = ABPTest.WebApi\\ABPTest.WebApi.csproj
+		SccProjectName4 = ABPTest.WebApi
+		SccLocalPath4 = ABPTest.WebApi
+		SccProjectUniqueName5 = ABPTest.Web\\ABPTest.Web.csproj
+		SccProjectName5 = ABPTest.Web
+		SccLocalPath5 = ABPTest.Web
+		SccProjectUniqueName6 = ABPTest.Test\\ABPTest.Test.csproj
+		SccProjectName6 = ABPTest.Test
+		SccLocalPath6 = ABPTest.Test
+		SccProjectUniqueName7 = ABPTest.FakeDataLayer\\ABPTest.FakeDataLayer.csproj
+		SccProjectName7 = ABPTest.FakeDataLayer
+		SccLocalPath7 = ABPTest.FakeDataLayer
+	EndGlobalSection
+EndGlobal

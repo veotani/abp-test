@@ -1,0 +1,40 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="alert alert-block">
+            Пожалуйста, проверьте свои личные сведения.<br>
+            В случае некорректности данных, обратитесь в учебный отдел для их корректировки.
+        </div>
+        <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"><span class="caret"></span> Личные данные </a> </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                    <div class="accordion-inner"> Данные </div>
+                </div>
+            </div>
+            <div class="accordion-group">
+                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> <span class="caret"></span> Студент 1 </a> </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <p>Данные</p>
+                        <input class="btn" type="submit" value="Сформировать справку о статусе обучения" onClick="javascript:window.location='http://my.spbu.ru/'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <dx-button text="Press me" (onClick)="helloWorld()"></dx-button>
+    <div id="form-container">
+
+        <dx-form id="form"
+                 [(formData)]="person"
+                 [readOnly]="readOnly"
+                 [showColonAfterLabel]="showColon"
+                 [labelLocation]="labelLocation"
+                 [minColWidth]="minColWidth"
+                 [colCount]="colCount"
+                 [width]="width">
+        </dx-form>
+    </div>
+
+    </div>

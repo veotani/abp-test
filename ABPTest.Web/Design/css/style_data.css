@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+.alert {
+    background-color: #9F2D20;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px 0px;
+    line-height: 1.5;
+    color:#FFFFFF;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+
+.accordion-heading {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom,#ffffff,#e6e6e6);
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+    font-size: 16.5px;
+    color: #444;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.accordion-heading a {
+	color: #444 !important;
+    font-family: sans-serif !important;
+	line-height: 16.5px !important;
+	text-decoration: none;
+}
+
+
+/*.active {
+color: #FFF !important;
+text-decoration-color: #FFF !important;
+text-shadow: none;
+background-color: #B83425;
+background-image: linear-gradient(to bottom, #C93929, #9F2D20);
+background-repeat: repeat-x;
+box-shadow: none;
+outline: medium none;
+}*/
+
+.accordion-inner {
+	/*font: 12px "Segoe UI",Helvetica,"Droid Sans",Tahoma,Geneva,sans-serif;*/
+	    font: 13px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    margin:10px;
+    display:table;
+    line-height: 2;
+	padding-left: 5px;
+}
+
+.accordion-group {
+	background: #FFFFFF;
+    border: solid 1px #C5C5C5;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.btn {
+border: 1px solid #C0C0C0;
+background-color: #FFF;
+padding: 5px;
+font: 12px "Segoe UI",Helvetica,"Droid Sans",Tahoma,Geneva,sans-serif;
+}
+
+.btn:hover {	/*Стиль кнопки при новедении на него курсора*/
+    color: #eee;
+    text-shadow: none;
+    background-color: #b83425;
+    background-image: linear-gradient(to bottom,#c93929,#9F2D20);
+    background-repeat: repeat-x;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn:active {		/*Стиль кнопки при нажатии*/
+    color : #ffffff !important ;
+    text-decoration-color: #fff !important;
+    text-shadow: none;
+    background-color: #b83425;
+    background-image: linear-gradient(to bottom,#c93929,#9F2D20);
+    background-repeat: repeat-x;
+    box-shadow: none;
+    outline: none;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+
+
+

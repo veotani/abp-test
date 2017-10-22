@@ -3,3 +3,19 @@
 ################################################################################
 
 /$tf
+/ABPTest.Core/bin/Debug
+/ABPTest.Core/obj/Debug
+/ABPTest.EntityFramework/bin/Debug
+/ABPTest.EntityFramework/obj/Debug
+/ABPTest.FakeDataLayer/bin/Debug
+/ABPTest.FakeDataLayer/obj/Debug
+/ABPTest.Test/bin/Debug
+/ABPTest.Test/obj/Debug
+/ABPTest.Web/node_modules
+/ABPTest.Web/fonts
+/ABPTest.Web/Localization/ABPTest
+/ABPTest.Web/bin
+/ABPTest.Web/obj/Debug
+/ABPTest.WebApi/bin/Debug
+/ABPTest.WebApi/obj/Debug
+/packages

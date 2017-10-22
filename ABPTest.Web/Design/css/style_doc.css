@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.accordion-heading {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom,#ffffff,#e6e6e6);
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+    color: #444;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+.accordion-heading a {
+	color: #444 !important;
+    font-family: sans-serif !important;
+	/*text-decoration: none;*/
+}
+
+
+p {
+	padding-left:20px;
+}
+
+
+.text-info {
+    font-family: sans-serif;
+    font-size: 16px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.doc {
+	padding-left: 5px;
+}
+
+.accordion-inner {
+    font: 13px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+    line-height: 2;
+}
+
+.accordion-group {
+	background: #FFFFFF;
+    border: solid 1px #C5C5C5;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+
+
+

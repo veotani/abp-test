@@ -1,0 +1,28 @@
+﻿/*table-hover*/
+.table-hover {
+	font-family : sans-serif;
+}
+.table-hover>tbody>tr:hover {
+	background-color: #9f2d20;
+	color: #FFF;
+}
+.table-hover>tbody>tr:hover a {
+	color: #FFF;
+	text-decoration: none;
+}
+ .table-hover>tbody>tr.active:hover>td a, {
+color:#fff;
+text-decoration:none;
+}
+.table-hover>tbody>tr>td.active:hover, 
+.table-hover>tbody>tr>th.active:hover, 
+.table-hover>tbody>tr.active:hover>td, 
+.table-hover>tbody>tr:hover>.active, 
+.table-hover>tbody>tr.active:hover>th {
+	background-color: #9f2d20;
+	color: #FFF;
+}
+.fixed-table-pagination div.pagination,
+.fixed-table-pagination .pagination-detail {
+    margin: 15px;
+	}

@@ -1,0 +1,269 @@
+html, body {
+	height : 100% !important;
+	width : 100% !important;
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5 !important;
+	color: #444 !important;
+	font-family: 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	/*font-size: 14px !important;
+	font-family: sans-serif !important;*/
+	font-size: 12px !important;
+	line-height: 20px !important;
+	padding-top: 0px !important;
+	position : relative !important;
+	display : table !important;
+}
+a {
+	color: #428bca;
+	text-decoration: none;
+}
+/* header*/
+
+.top {
+	width: 100%;
+}
+#header {
+	float: left;
+	display: inline;
+	width: 100%;
+	background: #EDEDED;
+}
+header .top {
+	padding: 7px 0;
+	margin: 0;
+	background: #EDEDED;
+}
+.headerTop {
+	width: 100%;
+}
+.templateTitle {
+	background-color: #EDEDED;
+	margin: 0;
+	margin-top: 11px;
+}
+.templateTitle a {
+	text-decoration: none;
+	font-size: x-large;
+	color: black;
+}
+.templateTitle img {
+	width: 90px;
+	height: 108px;
+	display: inline;
+	margin: 0px;
+	border: medium none;
+	vertical-align: middle;
+}
+.col-sm-1 {
+	padding-left : 0px !important;
+	padding-right : 0px !important;
+}
+.col-sm-11 {
+	padding-left : 0px !important;
+	padding-right : 0px !important;
+}
+.logotext {
+	vertical-align: central;
+}
+.logotext-border {
+	height: 90px;
+	margin-left : 30px;
+	margin-top : 20px;
+	border-left: 2px solid #9F2D20;
+	padding-left: 15px;
+	padding-top: 15px;
+	vertical-align: middle;
+	float : left;
+}
+.spbsu-name {
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #444;
+}
+.spbsu-site-name {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #444;/* margin-top:-10px;*/
+}
+/*Menu*/
+
+.menu {
+	align-items: center !important;
+	background-color: #f5f5f5;
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border-bottom: 3px solid #9f2d20;
+	border-top: 1px solid #e6e6e6;
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1px;
+}
+.menu li a{
+	border-right: 1px solid #d9d9d9;
+	}
+li a {
+	border-top: 0;
+	padding: 10px 20px;
+	/* float: none; */
+	padding: 10px 15px 10px;
+	color: #666;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 1em;
+	text-shadow: 0 1px 0 #ffffff;
+	text-shadow: none;
+}
+.navbar-default .navbar-brand {  
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*Footer*/
+#footer {
+	position: relative !important;
+/*	height: 65px;*/
+height: 55px;
+	bottom: 0;
+	width : 100%;
+	background-color : #9F2D20 !important;
+	color : #fff;
+	padding : 0px 0 10px 0 !important;
+	display: table-row;
+}
+/*
+
+#footer {
+	position : absolute;
+	height : 65px;
+	bottom: 0;
+	width : 100%;
+	background-color : #9F2D20 !important;
+}
+
+body > .container {
+	padding: 65px 0;
+}
+#footer > .container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+body > .padtop {
+	padding-top: 0px;
+}*/
+.copyright {
+	margin : auto auto auto auto;
+	display : block;
+	float : none !important;
+}
+.copyright-text {
+	margin-top : 15px;
+	font-size : 12px;
+	color : #fff;
+	font-family : sans-serif;
+	line-height : 20px;
+}
+.copyright-text a {
+	color: #f4ceca !important;
+	text-decoration: none;
+}
+.copyright-text a:hover {
+	text-decoration: underline !important;
+}
+/*Оповещения*/
+
+.alert {
+	background-color: #9F2D20;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px 0px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+/*button save remove*/
+.ButtonSaveRemove {
+	/*margin: 5px;*/
+	text-align: center;
+	vertical-align: middle;
+	padding:15px;
+}
+/*Нормативные документы*/
+.groupContent {
+	font: 13px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+	color: #990000;
+	margin: 10px;
+	display: table;
+	line-height: 2;
+}
+/*login*/
+.loginForm {
+	margin-bottom: 13px;
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+/*calendar*/
+
+.bootstrap-datetimepicker-widget td.active, 
+.bootstrap-datetimepicker-widget td.active:hover {
+	background-color: #9f2d20;
+}
+/*icon plus minus color*/
+a i {
+	color: #000;
+}
+/*
+ .pagination>li>a, {
+ position: relative;
+ float: left;
+ padding: 6px 12px;
+ line-height: 1.42857143;
+ text-decoration: none;
+ color: #A8adb4;
+ background-color: #fff;
+ border: 1px solid #ddd;
+ margin-left: -1px
+}
+.pagination>li>a:hover, 
+.pagination>li>a:focus, {
+ color: #fff;
+ background-color: #972d20;
+ border-color: #ddd
+}
+.pagination>.active>a, 
+.pagination>.active>a:hover, 
+.pagination>.active>a:focus, {
+ color: #fff;
+ background-color: #972d20;
+ border-color: #428bca;
+}
+*/
+.panelBody {
+	padding: 5px 15px;
+}
+/*add doc*/
+.add{
+	padding:7px 12px;
+}
+
+/**/
+.form-control-static ol {
+	padding-left:15px;
+}
+
+
+/*delete*/
+.delete {
+	display: inline-block;
+	min-width: 12px;
+	padding: 3px 7px;
+	line-height: 1;
+	color:#F00;
+	
+}
+.list-group-item>.delete {
+	float: right;
+	border-style: none;
+}

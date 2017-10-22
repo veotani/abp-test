@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Responsive Websites Using BootStrap - demo page">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Личный кабинет обучающегося</title>
+<!-- css stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/bootstrap-table.css" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/ColorMenu.css" rel="stylesheet">
+<link href="css/menuScore.css" rel="stylesheet">
+<link href="css/pagination.css" rel="stylesheet">
+
+</head>
+
+<body>
+<header>
+  <div class="hidden-sm hidden-xs">
+    <div class="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1">
+            <div class="templateTitle"> <a href="./"> <img alt="СПбГУ" src="img/CoA_Small.png"></a> </div>
+          </div>
+          <div class="col-sm-11">
+            <div class="logotext-border">
+              <div class="logotext">
+                <p class="spbsu-name">Санкт-Петербургский государственный университет</p>
+                <p class="spbsu-site-name">Личный кабинет обучающегося</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-default navbar-static-top menu">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="visible-sm visible-xs"> <a class="navbar-brand" href="#">Личный кабинет обучающегося</a> </div>
+      </div>
+      <div class="navbar-collapse collapse ">
+        <ul class="nav navbar-nav navbarLeft">
+          <li class="nav btn-default"> <a  href="data.html" >Мои данные</a> </li>
+          <li class="nav btn-default"> <a href="documents.html">Мои документы</a> </li>
+          <li class="nav btn-default active"> <a href="ScoreMenu.html">Мои оценки</a> </li>
+          <li class="nav btn-default"> <a href="Claims.html">Мои заявки</a> </li>
+          <li class="nav btn-default dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Подать заявку<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li class="nav"><a href="МaterialAssistanceDemandRed_.html">На материальную помощь</a></li>
+              <li class="divider"></li>
+              <li class="nav"><a href="form_military.html">На военную кафедру</a></li>
+            </ul>
+          </li>
+          <li class="nav btn-default"> <a href="ReceiptStudyPay.html">Квитанция на оплату обучения</a> </li>
+          <li class="nav btn-default"> <a href="Regulations.html">Нормативные документы</a> </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav btn-default dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">st000000<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li class="nav"><a href="data_hidden.html">Мои данные</a></li>
+              <li class="divider"></li>
+              <li class="nav"><a href="index_login.html">Выход</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Список оценок </h3>
+      </div>
+      <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active" ><a data-toggle="pill" href="#home">Студент 1</a></li>
+          <li><a data-toggle="pill" href="#menu1">Студент 2</a></li>
+          <!--<li><a data-toggle="pill" href="#menu2">Студент 3</a></li>
+          <li ><a data-toggle="pill" href="#menu3">Студент 4</a></li>-->
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active ">
+            <div class="tabbable">
+              <ul class="nav nav-pills">
+                <li class="active"><a href="#tab1" data-toggle="pill">Семестр 1</a></li>
+                <li><a href="#tab2" data-toggle="pill">Семестр 2</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
+                  <div class="panel-group" id="accordion" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" >Дисциплина 1 (1 семестр)</a> </h4>
+                      </div>
+                      <div id="collapse1" class="panel-collapse collapse ">
+                        <div class="panel-body"></div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" >Дисциплина 2 (1 семестр)</a> </h4>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="tab2">
+                  <div class="panel-group" id="accordion" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" >Дисциплина 1 (2 семестр)</a> </h4>
+                      </div>
+                      <div id="collapse3" class="panel-collapse collapse ">
+                        <div class="panel-body"></div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" >Дисциплина 2 (2 семестр)</a> </h4>
+                      </div>
+                      <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="pull-right pagination">
+                <li class="page-pre"><a href="#">‹</a></li>
+                <li class="page-number"><a href="#">1</a></li>
+                <li class="page-number"><a href="#">2</a></li>
+                <li class="page-next"><a href="#">›</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>Семестр 2</h3>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>Семестр 3 </h3>
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <h3>Семестр 4 </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="container">
+    <div class="col-sm-12 copyright-text hidden-sm hidden-xs"> 2016© Saint Petersburg State University. Office of Information Technology. Supported by <a runat="server" href="https://it.spbu.ru/support.html#web-support">OIT SPSU.</a> <br />
+<!--      <b>Support</b> tel.:+7(812)326-49-90 e-mail: support@spbu.ru --></div>
+      <div class="col-sm-12 copyright-text visible-sm visible-xs"> 2016© SPbU. Office of Information Technology. Supported by <a runat="server" href="https://it.spbu.ru/support.html#web-support">OIT SPSU.</a> 
+      </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-table.js"></script> 
+<script>
+    var $table = $('#table');
+
+    $(function () {
+    });
+</script>
+</body>
+</html>

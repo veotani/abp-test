@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Responsive Websites Using BootStrap - demo page">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Личный кабинет обучающегося</title>
+<!-- css stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.min.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/score.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="hidden-sm hidden-xs">
+    <div class="top menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1">
+            <div class="templateTitle"> <a href="./"> <img alt="СПбГУ" src="img/CoA_Small.png"></a> </div>
+          </div>
+          <div class="col-sm-11">
+            <div class="logotext-border">
+              <div class="logotext">
+                <p class="spbsu-name">Санкт-Петербургский государственный университет</p>
+                <p class="spbsu-site-name">Личный кабинет обучающегося</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar  navbar-default navbar-static-top menu visible-sm visible-xs">
+    <div class="container">
+      <div class="navbar-header">
+        <div class=""> <a class="navbar-brand">Личный кабинет обучающегося</a> </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="alert" role="alert"> Для входа на сайт, необходимо использовать единый логин вида stXXXXXX, где X цифра 0-9, если Вы не получали или забыли единый логин/пароль, то для его получения/восстановления обратитесь, пожалуйста, к сотрудникам службы технической поддержки пользователей на Вашем направлении. </div>
+  
+   <h4 class="form-group">Выполнить вход</h4>
+   <div class="col-sm-3 loginForm">
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label for="usr">Имя пользователя:</label>
+        <input type="text" class="form-control" id="usr" >
+      </div>
+      <div class="form-group">
+        <label for="pwd">Пароль:</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+      <button type="submit" class="btn btn-default form-group">Войти</button>
+    </form>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <div class="col-sm-12 copyright-text hidden-sm hidden-xs"> 2016© Saint Petersburg State University. Office of Information Technology. Supported by <a runat="server" href="https://it.spbu.ru/support.html#web-support">OIT SPSU.</a> <br />
+    </div>
+    <div class="col-sm-12 copyright-text visible-sm visible-xs"> 2016© SPbU. Office of Information Technology. Supported by <a runat="server" href="https://it.spbu.ru/support.html#web-support">OIT SPSU.</a> </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

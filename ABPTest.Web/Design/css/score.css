@@ -1,0 +1,81 @@
+/*BUTTON*/
+
+/*btn-default*/
+
+.form-control {
+	font: 12px 'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif;
+}
+.btn {
+	background-image: none;
+}
+.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+	font-size: 12px;
+}
+.btn-default:focus, .btn-default.focus {
+	color: #fff;
+	background-color: #972d20;
+	/*background-image: linear-gradient(to bottom, #c93929, #9f2d20);*/
+	background-image: none;
+	border-color: #8c8c8c;
+}
+.btn-default:hover {
+	color: #fff;
+	background-color: #972d20;
+	/*background-image: linear-gradient(to bottom, #c93929, #9f2d20);*/
+	background-image: none;
+	border-color: #adadad
+}
+.btn-default:active, .btn-default.active {
+	color: #fff;
+	background-color: #972d20;
+	/*background-image: linear-gradient(to bottom, #c93929, #9f2d20);*/
+	background-image: none;
+	border-color: #adadad;
+}
+.btn-default:active:hover, .btn-default.active:hover, .btn-default:active:focus, .btn-default.active:focus, .btn-default:active.focus, .btn-default.active.focus {
+	color: #fff;
+	background-color: #972d20;
+	/*background-image: linear-gradient(to bottom, #c93929, #9f2d20);*/
+	background-image: none;
+	border-color: #8c8c8c
+}
+.btn-default:active, .btn-default.active {
+	background-image: none
+}
+.btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus {
+	background-color: #fff;
+	border-color: #ccc;
+	color: #333;
+}
+.btn-default {
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.15), 0 1px 1px rgba(0,0,0,0.075);
+}
+.btn-default:active, .btn-default.active {
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+.btn-default.disabled,  .btn-default[disabled],  fieldset[disabled] .btn-default {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.btn-default:hover, .btn-default:focus {
+	background-color: #972d20;
+	background-image: none;
+	background-position: 0 -15px;
+}
+.btn-default:active, .btn-default.active {
+	background-color: #972d20;
+	/*background-image: linear-gradient(to bottom, #c93929, #9f2d20);*/
+	background-image: none;
+	border-color: #dbdbdb;
+}
+.btn-default.disabled, .btn-default[disabled], fieldset[disabled] .btn-default, .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus, .btn-default.disabled:active, .btn-default[disabled]:active, fieldset[disabled] .btn-default:active, .btn-default.disabled.active, .btn-default[disabled].active, fieldset[disabled] .btn-default.active {
+	/*	background-color: #e0e0e0;*/
+	background-color: 972d20;
+	background-image: none;
+}

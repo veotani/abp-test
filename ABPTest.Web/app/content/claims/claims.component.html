@@ -1,0 +1,26 @@
+﻿<div class="container">
+    <div id="form-container">
+        <dx-form id="form"
+                 [(formData)]="claimToSend"
+                 [readOnly]="readOnly"
+                 [showColonAfterLabel]="showColon"
+                 [labelLocation]="labelLocation"
+                 [minColWidth]="minColWidth"
+                 [colCount]="colCount"
+                 [width]="width">
+        </dx-form>
+    </div>
+
+    <div class="claims">
+        <span>Добавьте категории</span>
+        <dx-select-box [items]="availableCategories"
+                       [(value)]="category"></dx-select-box>
+    </div>
+    
+    <dx-button text="Добавить" (onClick)="addCategoryToArray(category)"></dx-button>
+    
+    <dx-data-grid id="gridContainer"
+                  [dataSource]="categories">
+    </dx-data-grid>
+
+</div>
